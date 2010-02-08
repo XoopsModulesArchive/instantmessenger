@@ -26,9 +26,9 @@
 //  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
 //  ------------------------------------------------------------------------ //
 
-$modversion['name'] = "IM";
+$modversion['name'] = _MI_INSTANTMESSENGER_MODULE_NAME;
 $modversion['version'] = "1.00 (alpha 1)";
-$modversion['description'] = "Instant Messenger";
+$modversion['description'] = _MI_INDEXSCAN_MODULE_DESC;
 $modversion['author'] = "Culex";
 $modversion['credits'] = "Original script by Anant Garg";
 $modversion['help'] = "";

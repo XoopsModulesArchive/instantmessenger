@@ -89,9 +89,9 @@ EOD;
 	foreach ($_SESSION['openChatBoxes'] as $chatbox => $time) {
 		if (!isset($_SESSION['tsChatBoxes'][$chatbox])) {
 			$now = time()-strtotime($time);
-			$time = date('g:iA M dS', strtotime($time));
+			$time = date('d-m-Y H:i:s', strtotime($time));
 
-			$message = "Sent at $time";
+			$message = "@ $time";
 			if ($now > 180) {
 				$items .= <<<EOD
 {
