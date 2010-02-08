@@ -26,5 +26,5 @@
 //  ------------------------------------------------------------------------ //
 
 define("_MI_INSTANTMESSENGER_MODULE_NAME","IM");
-define(" _MI_INSTANTMESSENGER_MODULE_DESC", "A block to show currently online users. Press name to open chat window");
+define("_MI_INSTANTMESSENGER_MODULE_DESC", "A block to show currently online users. Press name to open chat window");
 ?>
