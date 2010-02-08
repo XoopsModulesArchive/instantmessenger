@@ -27,13 +27,13 @@
 //  ------------------------------------------------------------------------ //
 
 $modversion['name'] = _MI_INSTANTMESSENGER_MODULE_NAME;
-$modversion['version'] = "1.00 (alpha 1)";
+$modversion['version'] = "1.00";
 $modversion['description'] = _MI_INSTANTMESSENGER_MODULE_DESC;
 $modversion['author'] = "Culex";
 $modversion['credits'] = "Original script by Anant Garg";
 $modversion['help'] = "";
 $modversion['license'] = "GPL see LICENSE";
-$modversion['official'] = 0;
+$modversion['official'] = 1;
 $modversion['image'] = "images/instantmessenger.png";
 $modversion['dirname'] = "instantmessenger";
 
@@ -41,7 +41,7 @@ $modversion['dirname'] = "instantmessenger";
 $modversion['hasAdmin'] = 0;
 
 // Menu
-$modversion['hasMain'] = 1;
+$modversion['hasMain'] = 0;
 
 $modversion['sqlfile']['mysql'] = "sql/mysql.sql";
 $modversion['tables'][0] = "instantmessenger_chat";
