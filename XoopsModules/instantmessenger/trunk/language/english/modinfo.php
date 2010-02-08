@@ -25,5 +25,6 @@
 //  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
 //  ------------------------------------------------------------------------ //
 
-
+define("_MI_INSTANTMESSENGER_MODULE_NAME","IM");
+define(" _MI_INDEXSCAN_MODULE_DESC", "A block to show currently online users. Press name to open chat window");
 ?>
