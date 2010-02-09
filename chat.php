@@ -124,6 +124,7 @@ EOD;
 	if ($items != '') {
 		$items = substr($items, 0, -1);
 	}
+$xoopsLogger->activated = false;
 header('Content-type: application/json');
 ?>
 {
@@ -159,7 +160,7 @@ function startChatSession() {
 	if ($items != '') {
 		$items = substr($items, 0, -1);
 	}
-
+$xoopsLogger->activated = false;
 header('Content-type: application/json');
 ?>
 {
