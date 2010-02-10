@@ -1,15 +1,12 @@
-<!--<script type='text/javascript'>
-   if (typeof jQuery != 'undefined') {
-        // do something
-    <?php include("http://code.jquery.com/jquery-latest.pack.js'>");?>
-	}
-	</script>-->
-	<script type="text/javascript">
+<?php include("http://code.jquery.com/jquery-latest.pack.js");?>
+<script type="text/javascript">
+$(document).ready(function(){
 var refreshId = setInterval(function() {
 $('#online_friends').fadeOut("slow", function () {
 $(this).load('<{$xoops_url}>/modules/instantmessenger/blocks/blockupdater.php').fadeIn("slow");
 });
 }, 60000);
+});
 </script>
 <link type="text/css" rel="stylesheet" media="all" href="<{$xoops_url}>/modules/instantmessenger/css/chat.css" />
 <link type="text/css" rel="stylesheet" media="all" href="<{$xoops_url}>/modules/instantmessenger/css/screen.css" />
@@ -35,6 +32,7 @@ var newMessagesWin = new Array();
 var chatBoxes = new Array();
 
 $(document).ready(function(){
+ jQuery.noConflict();
 	originalTitle = document.title;
 	startChatSession();
 
