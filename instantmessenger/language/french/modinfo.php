@@ -26,5 +26,5 @@
 //  ------------------------------------------------------------------------ //
 
 define("_MI_INSTANTMESSENGER_MODULE_NAME","IM");
-define("_MI_INSTANTMESSENGER_MODULE_DESC", "Un bloc pour afficher les utilisateurs en ligne. Appuyez sur le nom pour ouvrir la fenêtre de discussion");
+define("_MI_INSTANTMESSENGER_MODULE_DESC","Un bloc pour afficher les utilisateurs en ligne. Appuyez sur le nom pour ouvrir la fenÃªtre de discussion");
 ?>
